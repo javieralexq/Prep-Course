@@ -62,6 +62,7 @@ function dePalabrasAFrase(palabras) {
   // Tu código:
   var cadena = palabras.join (' ');
   return cadena
+  // return(  )
 }
 
 
@@ -250,7 +251,7 @@ function continueStatement(numero) {
     acc = acc + 2;
     miArray.push(acc);
   }
-  return miArray;
+    return miArray;
 }
 
 
