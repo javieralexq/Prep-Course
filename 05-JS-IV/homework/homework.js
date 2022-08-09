@@ -23,7 +23,6 @@ function agregarPropiedad (objeto, property) {
   // Tu código:
   objeto[property]=null
   return objeto
-
 }
 
 function invocarMetodo (objeto, metodo) {
@@ -39,6 +38,11 @@ function multiplicarNumeroDesconocidoPorCinco (objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
+  //property = a las propiedades de objeto que empiece con L
+  //objetoMisterioso={
+  //numeroMisterioso = 3
+  // LosnumerosNoMisterioso=9
+  //}
   var producto = objetoMisterioso.numeroMisterioso * 5
   return producto
 }
@@ -57,9 +61,9 @@ function nuevoUsuario (nombre, email, password) {
   // Devuelve el objeto
   // Tu código:
   var objeto={
-    nombre: nombre,
-    email:email,
-    password:password,
+    nombre,
+    email,
+    password,
   }
   return objeto
 }
@@ -153,9 +157,9 @@ function agregarMetodoCalculoDescuento (producto) {
   // producto.porcentajeDeDescuento -> 0.2 (o simplemente ".2")
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
-  producto.calcularPrecioDescuento = function() {
-    var descuento = producto.precio*producto.porcentajeDeDescuento;
-    var nuevoPrecio = producto.precio - descuento
+  producto.calcularPrecioDescuento = function(){
+    var descuento = producto.precio * producto.porcentajeDeDescuento;
+    var nuevoPrecio = producto.precio - descuento; 
     return nuevoPrecio;
   }
   return producto

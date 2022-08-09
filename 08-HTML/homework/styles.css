@@ -1,19 +1,25 @@
-h1{
-    color: darkred;
+body{
+    background-image: url("https://th.bing.com/th/id/R.fc6a4f667f64e699b0291b6cb5455a64?rik=cC%2btEB3PZr1eKQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-kZaCL2a7XfM%2fTiR0FE_FprI%2fAAAAAAAAAFU%2fVd6GvLiANBM%2fs1600%2f2.jpg&ehk=5HxJJnCV8RdL59hZvVkD73TZ1ZOO5mJi3NP4uEtfXCA%3d&risl=&pid=ImgRaw&r=0");
+    display: block;
+    text-align: center;
 }
-
-img{
-    width: 400px
-
+h1{
+    color:darkred;
+}
+img {
+    width: 400px;
+    ;
 }
 #thirdDiv{
+    justify-items: center;
     height: 600px;
     width: 500px;
-    background-color: rgb(223, 205, 157);
+    background-color: yellowgreen;
     padding: 50px;
-    border: 10px dark rgb(119, 134, 110) dotted;
+    border: 10px darkred dotted;
+   
+    margin: auto ;
 
-    
 }
 #spanId{
     font-size: 18px;
